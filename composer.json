@@ -4,8 +4,8 @@
     "description": "Shopware integration for Neos",
     "version": "1.0.0",
     "require": {
-        "neos/neos": "~4.0 || ~5.0",
-        "guzzlehttp/guzzle": "^6.3"
+        "neos/neos": "~4.0 || ~5.0 || ^8.0",
+        "guzzlehttp/guzzle": "^7.8"
     },
     "autoload": {
         "psr-4": {
