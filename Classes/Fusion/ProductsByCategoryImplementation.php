@@ -50,7 +50,7 @@ class ProductsByCategoryImplementation extends AbstractFusionObject
         ]);
 
         try {
-            $response = $this->guzzle->request('GET', 'sales-channel-api/v3/product');
+            $response = $this->guzzle->request('GET', 'store-api/product');
         } catch (GuzzleException $exception) {
             throw new \RuntimeException(sprintf('Uri Getter: %s', $exception->getMessage()), 1560856269, $exception);
         }
